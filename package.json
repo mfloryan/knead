@@ -1,34 +1,29 @@
 {
-  "name": "OpenShift-Sample-App",
+  "name": "knead",
   "version": "1.0.0",
-  "description": "OpenShift Sample Application",
+  "description": "knead - a slim mobile shim for mingle",
   "keywords": [
-    "OpenShift",
-    "Node.js",
-    "application",
-    "openshift"
+    "knead",
+    "mfx",
+    "mmsquare",
+    "mingle",
+    "mobile"
   ],
   "author": {
-    "name": "OpenShift",
-    "email": "ramr@example.org",
-    "url":  "http://www.openshift.com/"
+    "name": "Marcin Floryan",
+    "email": "marcin.floryan+openshift@gmail.com",
+    "url": "http://marcin.floryan.pl/"
   },
-  "homepage": "http://www.openshift.com/",
-  "repository": {
-    "type": "git",
-    "url": "https://gitub.com/openshift/origin-server"
-  },
-
+  "homepage": "http://openshift.redhat.com/",
   "engines": {
     "node": ">= 0.6.0",
     "npm": ">= 1.0.0"
   },
-
   "dependencies": {
+    "express": "~3.3.5"
   },
   "devDependencies": {},
   "bundleDependencies": [],
-
   "private": true,
   "main": "server.js"
 }
