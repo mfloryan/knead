@@ -2,8 +2,8 @@ var express = require('express');
 var app = express();
 
 
-var ipaddress = process.env.OPENSHIFT_INTERNAL_IP;
-var port      = process.env.OPENSHIFT_INTERNAL_PORT || 8080;
+var ipaddress = process.env.OPENSHIFT_NODEJS_IP;
+var port      = process.env.OPENSHIFT_NODEJS_PORT || 8080;
 
 if (typeof ipaddress === "undefined") {
   console.warn('No OPENSHIFT_INTERNAL_IP var, using 127.0.0.1');
